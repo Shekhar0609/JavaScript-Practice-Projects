@@ -7,9 +7,9 @@ const getColor = () => {
     const randomCode = "#"+ randomNumber.toString(16);
     document.body.style.backgroundColor = randomCode
     colorCode.innerText = randomCode;
-    
+    navigator.clipboard.writeText(randomCode);
 }
 
-colorBtn.addEventListener('click',getColor)
+colorBtn.addEventListener('click',getColor);
 
 getColor();
