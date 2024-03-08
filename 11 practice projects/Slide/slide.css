@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+
+}
+
+.main {
+  height: 400px;
+  width: 500px;
+  box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+  margin: 100px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: .1s;
+}
+
+.main-btn{
+    text-align: center;
+}
+
+.main-btn button {
+    font-size: 25px;
+    padding: 5px;
+}
